@@ -1,4 +1,3 @@
-package Chapter17;
 import java.util.Scanner;
 public class InternetDelicatessen {
 
@@ -13,6 +12,8 @@ public class InternetDelicatessen {
 		double productPrice = scan.nextFloat();
 		System.out.print("Overnight Delivery? (Press 0 if NO, 1 if YES): ");
 		int deliveryCondition = scan.nextInt();
+      
+      scan.close();
 		
 		if (productPrice < regularDelivery) {
 			if (deliveryCondition == 0) {
