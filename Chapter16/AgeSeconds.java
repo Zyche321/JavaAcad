@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class AgeSeconds {
    public static void main (String[] args) {
-      
       Scanner scan = new Scanner(System.in);
       int totalDays;
       System.out.print("Enter your age in years: ");
@@ -35,12 +34,10 @@ public class AgeSeconds {
          totalDays += 31;
       if (months > 11)
          totalDays += 30;
-         
       
       int seconds = totalDays * 24 * 60* 60;
       double lifespan = (seconds / 2.e9) * 100;
       System.out.println("You have lived for "+seconds+" seconds in your world");
       System.out.printf("The expected percentage of your lifespan is %%%.1f", lifespan);
-      
    }
 }
