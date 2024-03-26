@@ -1,19 +1,18 @@
-package JAVA_ACAD.Chapter16;
 import java.util.Scanner;
 public class BeefCalculator {
 
 	public static void main(String[] args) {
 		
-		Scanner ducay = new Scanner (System.in);
+		Scanner scan = new Scanner (System.in);
 		
 		System.out.println("Price per pound package A:");
-		float PriceA = ducay.nextFloat();
+		float PriceA = scan.nextFloat();
 		System.out.println("Percent lean package A:");
-		int leanA = ducay.nextInt();
+		int leanA = scan.nextInt();
 		System.out.println("Price per pound package B:");
-		float PriceB = ducay.nextFloat();
+		float PriceB = scan.nextFloat();
 		System.out.println("Percent lean package B:");
-		int leanB = ducay.nextInt();
+		int leanB = scan.nextInt();
 		
 		double costA = PriceA / (leanA / 100.0);
 		double costB = PriceB / (leanB / 100.0);
