@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class y2kCalculator {
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int age;
