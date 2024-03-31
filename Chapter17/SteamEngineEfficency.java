@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class SteamEngineEfficency {
-
 	public static void main(String[] args) {
 		
 		double efficiency = 0.0;
@@ -13,7 +12,6 @@ public class SteamEngineEfficency {
 		
 		if (Tsteam >= 373)
 			efficiency = 1.0 - Tair / Tsteam;
-		
 		scan.close();
 		
 		System.out.printf("The maximum possible efficiency: %%%f", efficiency);
