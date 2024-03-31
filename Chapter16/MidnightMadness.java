@@ -10,8 +10,8 @@ public class MidnightMadness {
 		int time = scan.nextInt();
       
 		if (age > 13) {
-         	if (time > 2200)
-            	System.out.printf ("The price of the ticket is $%.2f", discountMidnight);
+         		if (time > 2200)
+            			System.out.printf ("The price of the ticket is $%.2f", discountMidnight);
 			else if (time >= 100 && time <= 1700)
 				System.out.printf ("The price of the ticket is $%.2f", matineeAdult);
 			else
@@ -26,7 +26,7 @@ public class MidnightMadness {
 			   	else
 		   			System.out.printf ("The price of the ticket is $%.2f", normChild);
 
-            		}
+            		 }
       	 	 }
 	}
 }
