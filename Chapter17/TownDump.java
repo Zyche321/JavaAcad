@@ -11,7 +11,6 @@ public class TownDump {
          charge +=20;
       else  
          charge = (pounds - 200) / 100 * 8 + 20;
-         
       System.out.print("Total of "+pounds+" pounds of trash charges: $"+ charge);
    }
 }
