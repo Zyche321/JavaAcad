@@ -17,8 +17,7 @@ public class MicrowaveHeatingTime {
             time = time * 2;
       }
       else
-         System.out.print("The items exceeded, 3 items is the minimum to put in microwave. Please try again.");
-         
+         System.out.print("The items exceeded, 3 items is the minimum to put in microwave. Please try again.");     
       System.out.print("Heat for "+time / 100+" minutes "+time % 100+" seconds");
    }  
 }
