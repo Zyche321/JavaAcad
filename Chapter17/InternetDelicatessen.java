@@ -1,8 +1,6 @@
 import java.util.Scanner;
 public class InternetDelicatessen {
-
 	public static void main(String[] args) {
-		
 		final double regularDelivery = 10.0, addFee = 2.00, expressDelivery = 3.00, deliveryFee, total;
 		Scanner scan = new Scanner(System.in);
 		
@@ -12,7 +10,7 @@ public class InternetDelicatessen {
 		double productPrice = scan.nextFloat();
 		System.out.print("Overnight Delivery? (Press 0 if NO, 1 if YES): ");
 		int deliveryCondition = scan.nextInt();
-      
+
       scan.close();
 		
 		if (productPrice < regularDelivery) {
@@ -35,7 +33,6 @@ public class InternetDelicatessen {
 				total = productPrice;
 			}
 		}
-		
 		System.out.println("Invoice:");
 		System.out.printf("\t%s\t%.2f\n", productName, productPrice );
 		System.out.printf("\tDelivery\t%.2f\n", deliveryFee);
