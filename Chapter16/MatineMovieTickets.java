@@ -1,9 +1,7 @@
 package JAVA_ACAD.Chapter16;
 import java.util.Scanner;
 public class Main {
-
 	public static void main(String[] args) {
-		
 		final float normAdult = 8, matineeAdult = 5, normChild = 4, childMatinee = 2;
 		Scanner scan = new Scanner (System.in);
 		
