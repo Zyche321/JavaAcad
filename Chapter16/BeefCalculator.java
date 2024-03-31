@@ -1,8 +1,6 @@
 import java.util.Scanner;
 public class BeefCalculator {
-
 	public static void main(String[] args) {
-		
 		Scanner scan = new Scanner (System.in);
 		
 		System.out.println("Price per pound package A:");
