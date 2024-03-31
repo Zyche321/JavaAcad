@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class OrderChecker {
     public static void main(String[] args) {
-
         final int boltPrice = 5, nutPrice = 3, washerPrice = 1;
         Scanner ducay = new Scanner (System.in);
 
@@ -18,7 +17,6 @@ public class OrderChecker {
             System.out.println("\nCheck the Order: too few washers\n");
         else
             System.out.println("\nOrder is ok\n");
-
         System.out.println("Total cost: "+ (boltPrice * bolts + nutPrice * nuts + washerPrice * washers));
     }
 }
