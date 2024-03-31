@@ -1,8 +1,6 @@
 import java.util.Scanner;
 public class MatineeMovieTicket {
-
 	public static void main(String[] args) {
-		
 		final double normAdult = 8.00, matineeAdult = 5.00, normChild = 4.00, childMatinee = 2.00;
 		Scanner scan = new Scanner (System.in);
 		
