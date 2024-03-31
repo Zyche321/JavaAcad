@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class PieEatingContest {
    public static void main(String[] args) {
-      
       final int weightMaximum = 250, weightMinimum = 30;
       Scanner in = new Scanner(System.in);
       
