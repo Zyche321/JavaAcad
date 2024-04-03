@@ -58,7 +58,3 @@ public class GradingSystem {
       System.out.print("---SHUTTING DOWN---");
    }
 }
-      while (scanOption < 3);
-      System.out.print("---SHUTTING DOWN---");
-   }
-}
